@@ -145,7 +145,6 @@ the first element of the vector contains number of edges adjacent to a node
 
 int main()
 {
-    freopen("input.txt","r",stdin);
 
     vector <vector<pair<int,int>>> graph1;//A vector of vector list to contain adjacency list
     graph1.push_back(vector<pair<int,int>> (1,make_pair(0,0)));
